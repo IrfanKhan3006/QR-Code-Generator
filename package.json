@@ -1,0 +1,17 @@
+{
+  "name": "qr-code-generator",
+  "version": "1.0.0",
+  "description": "A simple QR code generator",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve .",
+    "build": "echo 'Static site - no build required'"
+  },
+  "keywords": [
+    "qr-code",
+    "generator",
+    "static"
+  ],
+  "author": "",
+  "license": "MIT"
+}
