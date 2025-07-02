@@ -1,19 +1,23 @@
-:root{
-    --bcg-color:#001122;
-    --primary-color:#155e75;
-    --border-radious:8px;
-    --colortext:#fff;
-    --bordercolor:#7fb7c9;
+body {
+    background-color: red !important;
 }
 
-*{
+:root {
+    --bcg-color: #001122;
+    --primary-color: #155e75;
+    --border-radious: 8px;
+    --colortext: #fff;
+    --bordercolor: #7fb7c9;
+}
+
+* {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
     font-family: sans-serif;
 }
 
-body{
+body {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -21,44 +25,52 @@ body{
     align-items: center;
     background-color: var(--bcg-color);
 }
-.box{
+
+.box {
     background-color: var(--primary-color);
     padding: 30px;
     width: 400px;
     border-radius: var(--border-radious);
 }
-.qr-header h1{
+
+.qr-header h1 {
     font-size: 26px;
     text-align: center;
     color: var(--colortext);
     margin-bottom: 24px;
     text-transform: uppercase;
 }
-.qr-header input{
+
+.qr-header input {
     width: 100%;
     margin-block: 12px;
 }
-.qr-header select, input{
+
+.qr-header select,
+input {
     padding: 8px;
     border-radius: var(--border-radious);
     font-size: 18px;
     outline: none;
     border: 2px solid var(--bordercolor);
 }
-.qr-header label{
+
+.qr-header label {
     color: var(--colortext);
     font-size: 20px;
 }
 
-.qr-header div{
+.qr-header div {
     display: flex;
     justify-content: space-between;
 }
-.qr-footer{
+
+.qr-footer {
     display: flex;
     justify-content: center;
 }
-.qr-footer a{
+
+.qr-footer a {
     background-color: var(--colortext);
     text-decoration: none;
     font-size: 20px;
@@ -68,13 +80,14 @@ body{
     font-weight: 600;
     border-radius: var(--border-radious);
 }
-.qr-body{
+
+.qr-body {
     display: grid;
     place-items: center;
     padding: 30px;
 }
 
-.qr-body img{
+.qr-body img {
     max-width: 100%;
     max-height: 100%;
     margin-block: 10px;
@@ -83,11 +96,12 @@ body{
     border-radius: var(--border-radious);
 }
 
-@media screen and (max-width:520px){
-    .box{
+@media screen and (max-width:520px) {
+    .box {
         width: 80%;
     }
-    .qr-footer a{
+
+    .qr-footer a {
         padding: 12px;
         font-size: 16px;
     }
